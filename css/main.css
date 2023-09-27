@@ -1,8 +1,21 @@
 body {
-  font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
-  margin: 0;
-  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color:rgb(248, 217, 180);
+  @media screen and { min-width: 600px;
+  }
+    
+  .main-nav{
+    background-color: burlywood ;
+  }
+
+}
+
+.wrapper{
+  background-color: rgb(255, 255, 255);
+  width: 90px
+  margin: left 40%;
+  padding:2rem;
+
 }
 
 h1,
@@ -11,7 +24,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
 }
 
 .container {
@@ -22,6 +36,9 @@ h6 {
 
 img {
   width: 100%;
+  display: flex;
+ justify-content: center;
+ margin-top: 1rem;
 }
 
 .main-nav ul {
